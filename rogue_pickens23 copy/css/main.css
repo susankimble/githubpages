@@ -1,0 +1,169 @@
+/******** GLOBAL STYLES ********/
+body {
+
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform:uppercase;
+    font-weight: 700;
+
+}
+
+h1 {
+    font-size: 30px;
+
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 36px;
+    
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/******** HEADER STYLES ********/
+header h1 {
+    float: left;
+    margin: 0;
+    padding:36px 0 36px 0;
+    width: 300px;
+
+}
+
+header h1 span {
+    color: #45610E;
+}
+
+header nav {
+    float: right;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    text-align: right;
+    text-transform:uppercase;
+    width: 300px;
+
+}
+
+header nav ul {
+   
+}
+
+header nav ul li {
+    
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    
+
+}
+
+header nav ul li a {
+    color: #45610E;
+    text-decoration: none;
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+.main-image img {
+    border-top: 3px;
+    border-bottom: 3px;
+    border-color: #77a466;
+    width: 1200px;
+    overflow: auto;
+}
+
+.main-title h2 {
+    padding: 5px 0;
+    color: #45610E;
+    
+}
+
+/******** BOTTOM SECTION ********/
+.bottom-section .content-wrapper {
+    border-top:5px solid;
+    border-bottom:5px solid;
+    border-color: #eee;
+
+}
+
+.section-one,
+.section-two,
+.section-three {
+    float: left;
+    box-sizing: border-box;
+    padding: 0 35px 0 35px;
+
+}
+
+.section-one {
+    width: 350px;
+
+}
+
+.section-two {
+    width: 500px;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    border-color: #EEE;
+}
+
+.section-three {
+    width: 300px;
+
+}
+
+.bottom-section h3 {
+    margin: 30px 0 30px 0;
+}
+
+.menu-list {
+    padding-left: 0;
+    list-style: none;
+
+}
+
+.menu-list li {
+    color: #45610E;
+    line-height: 36px;
+
+}
+
+/******** FOOTER STYLES ********/
+footer {
+    margin-top: 8px;
+    text-align: center;
+
+}
+
+footer span {
+    color: #45610E;
+    text-transform: lowercase;
+    font-family: galada, cursive;
+    font-size: 14px;
+}
+    

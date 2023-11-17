@@ -1,0 +1,72 @@
+body {
+    background: #e8e8e8;
+  }
+  #vision-board {
+    width: 1200px;
+    height: 850px;
+    margin:50px auto;
+    overflow: auto;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3b3b3b;
+    text-transform: uppercase;
+
+  }
+  .block {
+    /**outline: 1px dashed darkgreen;**/
+    float: left;
+    box-sizing: border-box;
+    width: 400px;
+
+  }
+  .small-block {
+    padding: 20px 40px;
+    height: 210px;
+  }
+  .large-block {
+    height: 430px;
+    padding: 70px 40px;
+  }
+  .center {
+    text-align: center;
+  }
+  .right {
+    text-align: right;
+
+  }
+  .background-white {
+    background-color: white;
+  }
+  .background-black {
+    background-color: black;
+  }
+  .highlight {
+    background-color:#fff44f;
+    font-size: 18px;
+    padding: 10px;
+  }
+  strong {
+    font-size: 38px;
+    text-transform: none;
+    line-height: 38px;
+
+  }
+  .year {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: #e8e8e8;
+    
+    
+  }
+  .vision-title {
+    color: #e8e8e8;
+    font-size: 30px;
+    margin: 10px 0px;
+    
+    
+  }
+  .top-padding {
+    padding-top: 40px;
+  }
